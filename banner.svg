@@ -1,4 +1,65 @@
-<svg width="900" height="330" viewBox="0 0 900 330" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+<svg width="900" height="420" viewBox="0 0 900 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      text { font-family: 'IBM Plex Mono', 'Courier New', ui-monospace, monospace; }
+      @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+      .cursor { animation: blink 1s step-end infinite; }
+      .l { opacity:0; }
+      .l1 { animation: show 0.01s 0.4s forwards; }
+      .l2 { animation: show 0.01s 1.2s forwards; }
+      .l3 { animation: show 0.01s 2.0s forwards; }
+      .l4 { animation: show 0.01s 2.8s forwards; }
+      .l5 { animation: show 0.01s 3.6s forwards; }
+      .l6 { animation: show 0.01s 4.4s forwards; }
+      .l7 { animation: show 0.01s 5.2s forwards; }
+      @keyframes show { to { opacity:1 } }
+      @keyframes bar { from { width:0 } to { width:210px } }
+      .progress { animation: bar 1.2s 4.6s ease-out forwards; width:0; }
+    </style>
+    <radialGradient id="glow" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#0f1d14"/>
+      <stop offset="100%" stop-color="#050807"/>
+    </radialGradient>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="none"/>
+      <rect width="4" height="2" fill="#000000" opacity="0.10"/>
+    </pattern>
+    <filter id="crt"><feGaussianBlur stdDeviation="0.4"/></filter>
+  </defs>
+
+  <rect width="900" height="420" rx="16" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="899" height="419" rx="15.5" fill="none" stroke="#1f3d29"/>
+
+  <rect x="16" y="16" width="868" height="30" rx="7" fill="#0d1a12"/>
+  <circle cx="38" cy="31" r="6" fill="#ff5f56"/>
+  <circle cx="58" cy="31" r="6" fill="#ffbd2e"/>
+  <circle cx="78" cy="31" r="6" fill="#27c93f"/>
+  <text x="450" y="35" text-anchor="middle" font-size="12" fill="#5c8f6d">al@oshawa: ~/profile — zsh — 90x24</text>
+
+  <g filter="url(#crt)">
+    <text x="34" y="86" font-size="14" fill="#3fb950" class="l l1">al@oshawa:~$ <tspan fill="#e6f2ea">whoami</tspan></text>
+    <text x="34" y="110" font-size="15" fill="#8be0a3" class="l l2">&gt; Al Muqshith Shifan — breaks networks on purpose, then teaches AI to fix them.</text>
+
+    <text x="34" y="146" font-size="14" fill="#3fb950" class="l l3">al@oshawa:~$ <tspan fill="#e6f2ea">cat ./stack.txt</tspan></text>
+    <text x="34" y="170" font-size="15" fill="#8be0a3" class="l l4">&gt; Python · P4 · Cisco · PyTorch · JS  //  from packets to policies to pixels</text>
+
+    <text x="34" y="206" font-size="14" fill="#3fb950" class="l l5">al@oshawa:~$ <tspan fill="#e6f2ea">./ship --recent</tspan></text>
+    <text x="34" y="230" font-size="15" fill="#8be0a3" class="l l6">&gt; 🏆 1st @ Re;Animate '26 — coded a tactics game in AMOS BASIC on an Amiga</text>
+    <text x="34" y="252" font-size="15" fill="#8be0a3" class="l l6">&gt; 👾 RIDGE — one PPO agent, three personas, learning to survive Crafter</text>
+    <text x="34" y="274" font-size="15" fill="#8be0a3" class="l l6">&gt; 🎲 a fully-local AI dungeon master that runs offline on Ollama</text>
+
+    <text x="34" y="312" font-size="14" fill="#3fb950" class="l l7">al@oshawa:~$ <tspan fill="#e6f2ea">./focus --now</tspan></text>
+    <text x="34" y="336" font-size="15" fill="#e3b341" class="l l7">&gt; [ teaching reward functions to play games ]</text>
+    <rect x="34" y="348" width="210" height="12" rx="2" fill="#12241a" class="l l7"/>
+    <rect x="34" y="348" height="12" rx="2" fill="#3fb950" class="progress"/>
+    <text x="256" y="358" font-size="12" fill="#5c8f6d" class="l l7">62% — MSc CS @ Ontario Tech</text>
+
+    <text x="34" y="390" font-size="15" fill="#3fb950">al@oshawa:~$ <tspan class="cursor" fill="#3fb950">█</tspan></text>
+  </g>
+
+  <rect x="1" y="1" width="898" height="418" rx="15" fill="url(#scanlines)"/>
+  <rect x="1" y="1" width="898" height="418" rx="15" fill="none" stroke="#000" opacity="0.4"/>
+</svg><svg width="900" height="330" viewBox="0 0 900 330" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
   <defs>
     <style>
       .serif { font-family: 'Instrument Serif', 'Times New Roman', serif; }
