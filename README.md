@@ -1,12 +1,6 @@
-<p align="center">
-<img src="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/banner.svg" alt="al@oshawa terminal" width="900"/>
-</p>p>
+[![al@oshawa terminal](https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/banner.svg)](https://al-scripting.github.io/about-me/)
 
-<p align="center">
-<a href="https://al-scripting.github.io/about-me/"><b>&#8594; portfolio</b>b></a>a> &#183;
-<a href="https://www.linkedin.com/in/al-mohamed-shifan-5266b924b"><b>&#8594; linkedin</b>b></a>a> &#183;
-<a href="https://al-scripting.github.io/about-me/assets/Al-Shifan-Resume-2026.pdf"><b>&#8594; cv</b>b></a>a>
-</p>p>
+**[&#8594; portfolio](https://al-scripting.github.io/about-me/)** &#183; **[&#8594; linkedin](https://www.linkedin.com/in/al-mohamed-shifan-5266b924b)** &#183; **[&#8594; cv](https://al-scripting.github.io/about-me/assets/Al-Shifan-Resume-2026.pdf)**
 
 ```bash
 $ ./whoami --verbose
@@ -33,11 +27,11 @@ I like building things that *play*. My favorite bugs are the ones where the agen
 - **[RIDGE](https://github.com/Code-SorceryLab/RIDGE)** - one PPO agent, four personas (Explorer / Survivor / Craftsman / Warrior) blended with smooth sigmoids on the **Crafter** environment. Accepted at **IEEE CoG 2026**. It learns to survive by *vibe*.
 - - **[Local-AI-Dungeon](https://github.com/Al-Scripting/Local-AI-Dungeon-Ollama-Python)** - a fully offline text-adventure engine: a lightweight Python game loop wired into a local **Gemma 3 / Ollama** model. No cloud, no leash.
   - - **Re;Animate '26** - 1st place. Built a turn-based tactics game in **AMOS BASIC** on an Amiga, because constraints breed creativity.
-    -
+   
     - ## Software Design & The Stack
-    -
+   
     - I care about clean systems as much as clever ones - the kind you can read six months later without crying.
-    -
+   
     - ```
       languages  ########## python js c
       ml / rl    ########.. pytorch gymnasium ppo
@@ -54,4 +48,4 @@ I like building things that *play*. My favorite bugs are the ones where the agen
 
       ---
 
-      <p align="center"><i>// still convinced the best software feels a little like a game.</i>i></p>p></b></b>
+      *// still convinced the best software feels a little like a game.*
