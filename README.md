@@ -26,6 +26,10 @@ deep RL agents on one side, Intel Tofino P4 data planes on the other.
 
 ---
 
+<!-- METRICS DASHBOARDS — uncomment once the METRICS_TOKEN secret exists and the
+     "GitHub metrics" workflow has run green. Until then these files do not exist
+     and would render as broken images.
+
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/metrics.overview.svg" alt="GitHub metrics overview" width="100%" />
@@ -36,6 +40,8 @@ deep RL agents on one side, Intel Tofino P4 data planes on the other.
 </div>
 
 ---
+-->
+
 
 ### Research
 
