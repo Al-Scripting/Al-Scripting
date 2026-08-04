@@ -24,6 +24,14 @@ deep RL agents on one side, Intel Tofino P4 data planes on the other.
 
 > I break networks on purpose, then teach AI to fix them.
 
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/persona-card.svg" alt="Live persona blend: four RIDGE persona weights computed from real GitHub activity" width="100%" />
+
+<sub><i>the card above is generated daily by <a href="https://github.com/Al-Scripting/Al-Scripting/blob/main/scripts/persona_card.py">scripts/persona_card.py</a> — my live GitHub activity run through RIDGE's sigmoid blend</i></sub>
+
+</div>
+
 ---
 
 <!-- METRICS DASHBOARDS — uncomment once the METRICS_TOKEN secret exists and the
