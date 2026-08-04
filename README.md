@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2600&pause=900&color=E5484D&center=true&vCenter=true&width=760&lines=deep+RL+agents+that+play+by+vibe;P4+data+planes+at+line+rate;LLM+NPCs+that+actually+remember;I+break+networks+on+purpose%2C+then+teach+AI+to+fix+them)](https://al-scripting.github.io/about-me/)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=900&color=E5484D&center=true&vCenter=true&width=900&height=60&lines=deep+RL+agents+that+play+by+vibe;P4+data+planes+at+line+rate;LLM+NPCs+that+actually+remember;I+break+networks+on+purpose%2C+then+teach+AI+to+fix+them)](https://al-scripting.github.io/about-me/)
 
 **[portfolio](https://al-scripting.github.io/about-me/)** &#183; **[linkedin](https://www.linkedin.com/in/al-mohamed-shifan-5266b924b)** &#183; **[cv](https://al-scripting.github.io/about-me/assets/Al-Shifan-Resume-2026.pdf)**
 
