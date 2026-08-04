@@ -8,6 +8,19 @@ on:
     branches:
       - main
 
+# Every job pulls Code&SorceryLab work in alongside the personal repos, so RIDGE,
+# PEAK, steam-patch-notes and Procedural-Graph-Tools count toward the stats.
+# This needs the METRICS_TOKEN PAT to carry `read:org` as well as `repo`.
+env:
+  AFFILIATIONS: owner, collaborator, organization_member
+  # Terminal-red on near-black, matching banner.svg — not the metrics default palette.
+  BRAND_CSS: |
+    .header .title { fill: #E5484D !important; font-weight: 700 !important; }
+    .header .subtitle { fill: #8B949E !important; }
+    h2, .title a, a { color: #E5484D !important; fill: #E5484D !important; }
+    svg { --color-calendar-graph-day-L1-bg: #4C1519; --color-calendar-graph-day-L2-bg: #8E2429;
+          --color-calendar-graph-day-L3-bg: #C0343A; --color-calendar-graph-day-L4-bg: #E5484D; }
+
 jobs:
   # The wide dashboard: identity, repo stats, and the isometric contribution calendar.
   overview:
@@ -22,8 +35,10 @@ jobs:
           filename: metrics.overview.svg
           template: classic
           base: header, activity, community, repositories, metadata
+          repositories_affiliations: ${{ env.AFFILIATIONS }}
           config_timezone: America/Toronto
           config_display: large
+          extras_css: ${{ env.BRAND_CSS }}
 
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
@@ -43,7 +58,7 @@ jobs:
           plugin_achievements_secrets: yes
           plugin_achievements_threshold: C
 
-  # The second card: when he actually codes, and what he reaches for.
+  # When he actually codes, what he reaches for, and a real snippet of his own work.
   habits:
     runs-on: ubuntu-latest
     permissions:
@@ -56,7 +71,9 @@ jobs:
           filename: metrics.habits.svg
           template: classic
           base: ""
+          repositories_affiliations: ${{ env.AFFILIATIONS }}
           config_timezone: America/Toronto
+          extras_css: ${{ env.BRAND_CSS }}
 
           plugin_habits: yes
           plugin_habits_charts: yes
@@ -71,10 +88,14 @@ jobs:
           plugin_topics_mode: icons
           plugin_topics_sort: stars
 
-          plugin_stargazers: yes
-          plugin_stargazers_charts: yes
+          # Uncommon and very on-brand: renders an actual snippet from a recent commit.
+          # A researcher's profile showing real code beats another stat ring.
+          plugin_code: yes
+          plugin_code_lines: 12
+          plugin_code_load: 400
+          plugin_code_visibility: public
 
-  # The portfolio card: pinned work and the live site's Lighthouse score.
+  # The lab side: notable org contributions, pinned work, and the live site's score.
   showcase:
     runs-on: ubuntu-latest
     permissions:
@@ -87,7 +108,15 @@ jobs:
           filename: metrics.showcase.svg
           template: classic
           base: ""
+          repositories_affiliations: ${{ env.AFFILIATIONS }}
           config_timezone: America/Toronto
+          extras_css: ${{ env.BRAND_CSS }}
+
+          # Surfaces the Code&SorceryLab work explicitly rather than burying it in totals.
+          plugin_notable: yes
+          plugin_notable_from: all
+          plugin_notable_repositories: yes
+          plugin_notable_types: commit, pull_request
 
           plugin_pagespeed: yes
           plugin_pagespeed_detailed: yes
