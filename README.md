@@ -26,9 +26,9 @@ deep RL agents on one side, Intel Tofino P4 data planes on the other.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/persona-card.svg" alt="Live persona blend: four RIDGE persona weights computed from real GitHub activity" width="100%" />
+<img src="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/activity-card.svg" alt="Live GitHub activity card" width="100%" />
 
-<sub><i>the card above is generated daily by <a href="https://github.com/Al-Scripting/Al-Scripting/blob/main/scripts/persona_card.py">scripts/persona_card.py</a> — my live GitHub activity run through RIDGE's sigmoid blend</i></sub>
+<sub><i>generated daily by <a href="https://github.com/Al-Scripting/Al-Scripting/blob/main/scripts/activity_card.py">scripts/activity_card.py</a> — no dependencies, straight from the GitHub API</i></sub>
 
 </div>
 
