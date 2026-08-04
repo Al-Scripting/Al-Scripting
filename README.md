@@ -26,6 +26,17 @@ deep RL agents on one side, Intel Tofino P4 data planes on the other.
 
 ---
 
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/metrics.overview.svg" alt="GitHub metrics overview" width="100%" />
+
+<img src="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/metrics.habits.svg" alt="Coding habits and mastered technologies" width="49%" />
+<img src="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/metrics.showcase.svg" alt="Portfolio and PageSpeed" width="49%" />
+
+</div>
+
+---
+
 ### Research
 
 **RIDGE** — *State-Conditioned Reward Blending for Behavioral Coverage in Deep RL Game Agents*
