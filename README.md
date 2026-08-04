@@ -11,61 +11,26 @@
 ![Dean's List](https://img.shields.io/badge/Dean's_List-2024--2026-B8860B?style=for-the-badge)
 ![TryHackMe](https://img.shields.io/badge/TryHackMe-200%2B_hrs-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)
 
-</div>
-
-```bash
-$ ./whoami
-
-MSc Computer Science (Software Design, AI/RL) @ Ontario Tech · SEGAL Lab
-BIT Networking & Cybersecurity, Dean's List · CCNA
-
-deep RL agents on one side, Intel Tofino P4 data planes on the other.
-```
-
-> I break networks on purpose, then teach AI to fix them.
-
-<div align="center">
-
 <img src="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/activity-card.svg" alt="Live GitHub activity card" width="100%" />
 
-<sub><i>generated daily by <a href="https://github.com/Al-Scripting/Al-Scripting/blob/main/scripts/activity_card.py">scripts/activity_card.py</a> — no dependencies, straight from the GitHub API</i></sub>
+<sub><i>generated daily by <a href="https://github.com/Al-Scripting/Al-Scripting/blob/main/scripts/activity_card.py">scripts/activity_card.py</a> — zero dependencies, straight from the GitHub API</i></sub>
 
 </div>
 
----
-
-<!-- METRICS DASHBOARDS — uncomment once the METRICS_TOKEN secret exists and the
-     "GitHub metrics" workflow has run green. Until then these files do not exist
-     and would render as broken images.
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/metrics.overview.svg" alt="GitHub metrics overview" width="100%" />
-
-<img src="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/metrics.habits.svg" alt="Coding habits and mastered technologies" width="49%" />
-<img src="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/metrics.showcase.svg" alt="Portfolio and PageSpeed" width="49%" />
-
-</div>
-
----
--->
-
+MSc Computer Science (Software Design, AI/RL) @ **Ontario Tech**, SEGAL Lab &#183; BIT Networking &
+Cybersecurity, Dean's List &#183; CCNA. Deep RL agents on one side, Intel Tofino P4 data planes on
+the other.
 
 ### Research
 
-**RIDGE** — *State-Conditioned Reward Blending for Behavioral Coverage in Deep RL Game Agents*
-Shifan, A.M. & Chua, K.C. — **IEEE Conference on Games (CoG) 2026**, Madrid
+**RIDGE** — *State-Conditioned Reward Blending for Behavioral Coverage in Deep RL Game Agents* &#183;
+**IEEE CoG 2026**, Madrid. One PPO agent, four personas, blended live by sigmoids over a 6-dim
+game-state vector.
 
-One PPO agent, four personas, blended live by sigmoids over a 6-dim game-state vector. Multi-head
-critic, shared CNN encoder. Written and submitted in a 20-hour sprint in month one of the MSc.
-
-**Interests** &nbsp;
 ![RL](https://img.shields.io/badge/Reinforcement_Learning-0A9396?style=flat-square)
 ![LLM NPCs](https://img.shields.io/badge/LLM_NPCs-005F73?style=flat-square)
 ![Affective Computing](https://img.shields.io/badge/Affective_Computing-9B2226?style=flat-square)
 ![Programmable Networks](https://img.shields.io/badge/Programmable_Networks-3A5A40?style=flat-square)
-
----
 
 ### Building
 
@@ -76,22 +41,19 @@ critic, shared CNN encoder. Written and submitted in a 20-hour sprint in month o
 | **[Local-AI-Dungeon](https://github.com/Al-Scripting/Local-AI-Dungeon-Ollama-Python)** | offline text adventure on a local LLM | `Ollama` `Gemma 3` |
 | **[steam-patch-notes](https://github.com/Code-SorceryLab/steam-patch-notes)** | cleaned Steam patch-note dataset + pipeline | `Python` `API` |
 | **[Procedural-Graph-Tools](https://github.com/Code-SorceryLab/Procedural-Graph-Tools)** | graph-based procedural generation | `GDScript` |
-| **[Steam-Gift-Helper](https://github.com/Al-Scripting/Steam-Gift-Helper)** | gift picks from real playtime habits | `Node.js` |
 | **Gestura** | gesture → SOAP clinical notes · HackHive 2026 | `Flask` `Three.js` |
 | **Re;Animate '26** | 🥇 tactics game written in AMOS BASIC, on an Amiga | `chaos` |
 
----
+### Shipped
 
-### Shipped in the real world
+Intel Tofino P4 — the lab's first working deployment, line-rate per-flow telemetry &#183; patched
+P4 control-plane servers, crashes down ~30% &#183; 15 exploitable issues found in a live
+WooCommerce + Stripe stack &#183; TA for ~120 undergrads across two networking courses.
 
-- **Intel Tofino P4** — the lab's first working Tofino deployment; line-rate per-flow telemetry
-- **Kernel debugging** — patched P4 control-plane servers, crashes down ~30%
-- **Security audit** — 15 exploitable issues found in a live WooCommerce + Stripe stack
-- **Teaching** — ~120 undergrads across two networking courses
+<details>
+<summary><b>Stack</b></summary>
 
----
-
-### Stack
+<br>
 
 **Languages** &nbsp;
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -136,9 +98,16 @@ critic, shared CNN encoder. Written and submitted in a 20-hour sprint in month o
 ![Swift](https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=swift&logoColor=white)
 ![Godot](https://img.shields.io/badge/-Godot-478CBF?style=flat-square&logo=godotengine&logoColor=white)
 
----
+</details>
 
-### Contribution snake
+<!-- METRICS DASHBOARDS — uncomment once the METRICS_TOKEN secret exists and the
+     "GitHub metrics" workflow has run green. Until then these files do not exist
+     and would render as broken images.
+
+<img src="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/metrics.overview.svg" alt="GitHub metrics overview" width="100%" />
+<img src="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/metrics.habits.svg" alt="Coding habits" width="49%" />
+<img src="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/metrics.showcase.svg" alt="Portfolio and PageSpeed" width="49%" />
+-->
 
 <div align="center">
 
@@ -148,18 +117,8 @@ critic, shared CNN encoder. Written and submitted in a 20-hour sprint in month o
   <img alt="snake eating my contribution graph" src="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/output/github-snake.svg" />
 </picture>
 
-</div>
+<sub><i>still convinced the best software feels a little like a game.</i></sub>
 
----
-
-<div align="center">
-
-```
-$ curl -s al-scripting.github.io/about-me
-```
-
-*still convinced the best software feels a little like a game.*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=E5484D&height=90&section=footer" width="100%" alt="" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=E5484D&height=80&section=footer" width="100%" alt="" />
 
 </div>
