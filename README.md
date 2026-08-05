@@ -24,8 +24,10 @@ the other.
 ### Research
 
 **RIDGE** — *State-Conditioned Reward Blending for Behavioral Coverage in Deep RL Game Agents* &#183;
-**IEEE CoG 2026**, Madrid. One PPO agent, four personas, blended live by sigmoids over a 6-dim
-game-state vector.
+**IEEE CoG 2026**, Madrid
+K. Chua, **A. M. M. Shifan**, A. Neshati, L. Zaman, C. Politowski
+
+One PPO agent, four personas, blended live by sigmoids over a 6-dim game-state vector.
 
 ![RL](https://img.shields.io/badge/Reinforcement_Learning-0A9396?style=flat-square)
 ![LLM NPCs](https://img.shields.io/badge/LLM_NPCs-005F73?style=flat-square)
