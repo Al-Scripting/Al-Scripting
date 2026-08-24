@@ -73,14 +73,14 @@
     <animate attributeName="opacity" from="0" to="1" dur="0.45s"
              begin="0.30s" fill="freeze"/>
     <text x="34" y="206" class="label">CONSISTENCY</text>
-    <text x="148" y="206" class="signal">4-day streak · 730 contributions</text>
+    <text x="148" y="206" class="signal">0-day streak · 730 contributions</text>
     <rect x="360" y="196" width="340" height="12" rx="6" class="track"/>
-    <rect x="360" y="196" width="256.2" height="12" rx="6" class="fill">
-      <animate attributeName="width" from="0" to="256.2"
+    <rect x="360" y="196" width="173.2" height="12" rx="6" class="fill">
+      <animate attributeName="width" from="0" to="173.2"
                dur="1.05s" begin="0.58s" fill="freeze"
                calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
     </rect>
-    <text x="714" y="206" class="score">0.75</text>
+    <text x="714" y="206" class="score">0.51</text>
   </g>
   <g>
     <animate attributeName="opacity" from="0" to="1" dur="0.45s"
@@ -112,8 +112,8 @@
 
   <line x1="34" y1="278" x2="866" y2="278" stroke="#21262D" stroke-width="1"/>
   <text x="34" y="296" class="foot"><tspan class="accent">730</tspan> contributions
-    &#183; <tspan class="accent">4d</tspan> streak
+    &#183; <tspan class="accent">0d</tspan> streak
     &#183; 35 repos &#183; 10 languages
     &#183; 2 stars</text>
-  <text x="866" y="296" class="foot" text-anchor="end">2026-08-23 07:11 UTC</text>
+  <text x="866" y="296" class="foot" text-anchor="end">2026-08-24 07:38 UTC</text>
 </svg>
