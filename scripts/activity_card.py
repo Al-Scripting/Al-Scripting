@@ -200,7 +200,9 @@ BAR_X, BAR_W, BAR_H = 360, 340, 12
 SPARK_X, SPARK_W, SPARK_H = 724, 142, 46
 ROW_Y, ROW_GAP = 116, 40
 
-RED, DIM, INK, BG = "#E5484D", "#8B949E", "#E6EDF3", "#0D1117"
+# Neo-Japanese palette: vermillion ink on kinari paper.
+RED, DIM, INK, BG = "#BC2D29", "#8C7B66", "#2B2320", "#F4EBDA"
+CHROME, TRACK, LINE, GRAD0 = "#EAE0C9", "#E3D5B8", "#D8C5A0", "#8E1F1D"
 
 
 def bar(index: int, metric: Metric) -> str:
@@ -276,14 +278,16 @@ def render(metrics: list[Metric], facts: dict, weekly: list[int], login: str) ->
   <title>{login} — live GitHub activity</title>
   <style>
     text {{ font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace; }}
-    .frame {{ fill: {BG}; stroke: {RED}; stroke-opacity: 0.5; stroke-width: 1.5; }}
-    .chrome {{ fill: #161B22; }}
+    .frame {{ fill: {BG}; stroke: {RED}; stroke-opacity: 0.85; stroke-width: 2; }}
+    .chrome {{ fill: {CHROME}; }}
+    .kacc {{ fill: {RED}; font-size: 15px; font-weight: 700;
+            font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif; }}
     .title {{ fill: {RED}; font-size: 16px; font-weight: 700; letter-spacing: 2px; }}
     .sub {{ fill: {DIM}; font-size: 10.5px; letter-spacing: 0.4px; }}
     .label {{ fill: {INK}; font-size: 11.5px; font-weight: 700; letter-spacing: 1.2px; }}
     .signal {{ fill: {DIM}; font-size: 9.5px; }}
     .score {{ fill: {RED}; font-size: 11.5px; font-weight: 700; }}
-    .track {{ fill: #21262D; }}
+    .track {{ fill: {TRACK}; }}
     .fill {{ fill: url(#grad); }}
     .spark-line {{ fill: none; stroke: {RED}; stroke-width: 1.6; stroke-linejoin: round; }}
     .spark-area {{ fill: url(#fade); }}
@@ -294,7 +298,7 @@ def render(metrics: list[Metric], facts: dict, weekly: list[int], login: str) ->
   </style>
   <defs>
     <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#8E2429"/>
+      <stop offset="0%" stop-color="{GRAD0}"/>
       <stop offset="100%" stop-color="{RED}"/>
     </linearGradient>
     <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
@@ -306,18 +310,18 @@ def render(metrics: list[Metric], facts: dict, weekly: list[int], login: str) ->
   <rect x="1" y="1" width="{WIDTH - 2}" height="{HEIGHT - 2}" rx="12" class="frame"/>
   <path d="M1 13 a12 12 0 0 1 12-12 h{WIDTH - 26} a12 12 0 0 1 12 12 v19 h-{WIDTH - 2} z" class="chrome"/>
   <circle cx="24" cy="17" r="4.5" fill="{RED}"/>
-  <circle cx="40" cy="17" r="4.5" fill="#3D444D"/>
-  <circle cx="56" cy="17" r="4.5" fill="#3D444D"/>
+  <circle cx="40" cy="17" r="4.5" fill="#CDBC9C"/>
+  <circle cx="56" cy="17" r="4.5" fill="#CDBC9C"/>
   <text x="{WIDTH / 2}" y="21" class="sub" text-anchor="middle">al@oshawa: ~/activity --live</text>
 
-  <text x="34" y="64" class="title">GITHUB ACTIVITY</text>
+  <text x="34" y="64" class="title">GITHUB ACTIVITY <tspan class="kacc" dx="6">活動記録</tspan></text>
   <text x="34" y="83" class="sub">generated daily from the GitHub API<tspan> _<animate
     attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/></tspan></text>
 
 {rows}
 {sparkline(weekly)}
 
-  <line x1="34" y1="{HEIGHT - 34}" x2="{WIDTH - 34}" y2="{HEIGHT - 34}" stroke="#21262D" stroke-width="1"/>
+  <line x1="34" y1="{HEIGHT - 34}" x2="{WIDTH - 34}" y2="{HEIGHT - 34}" stroke="{LINE}" stroke-width="1"/>
   <text x="34" y="{HEIGHT - 16}" class="foot"><tspan class="accent">{facts['total']}</tspan> contributions
     &#183; <tspan class="accent">{facts['streak']}d</tspan> streak
     &#183; {facts['repos']} repos &#183; {facts['languages']} languages
