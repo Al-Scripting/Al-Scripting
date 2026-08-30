@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="56" viewBox="0 0 900 56" role="img" aria-label="SHIPPED section">
+  <title>SHIPPED</title>
+  <style>
+    .strip { fill: #F4EBDA; stroke: #BC2D29; stroke-width: 1.6; }
+    .title { fill: #2B2320; font-size: 19px; font-weight: 700; letter-spacing: 5px;
+             font-family: "JetBrains Mono", ui-monospace, monospace; }
+    .sub   { fill: #8C7B66; font-size: 11px; letter-spacing: 1px;
+             font-family: "JetBrains Mono", ui-monospace, monospace; }
+    .kanji { fill: #F4EBDA; font-size: 22px; font-weight: 700;
+             font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif; }
+  </style>
+  <rect x="1" y="1" width="898" height="54" rx="10" class="strip"/>
+  <path d="M1 11 a10 10 0 0 1 10-10 h64 v54 h-64 a10 10 0 0 1 -10-10 z" fill="#BC2D29"/>
+  <text x="38" y="36" class="kanji" text-anchor="middle">出荷</text>
+  <text x="96" y="35" class="title">SHIPPED</text>
+  <text x="898" y="35" class="sub" text-anchor="end" transform="translate(-20 0)">work in production</text>
+  <line x1="288" y1="28" x2="720" y2="28" stroke="#BC2D29" stroke-opacity="0.45" stroke-width="1.4"/>
+  <circle cx="726" cy="28" r="3" fill="#BC2D29"/>
+</svg>
