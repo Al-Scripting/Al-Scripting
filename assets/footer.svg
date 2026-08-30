@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="72" viewBox="0 0 900 72" role="img" aria-label="footer wave">
+  <title>footer</title>
+  <defs>
+    <pattern id="waves" width="48" height="24" patternUnits="userSpaceOnUse">
+      <g fill="#BC2D29" stroke="#F4EBDA" stroke-width="1.1" stroke-opacity="0.5">
+        <circle cx="-48" cy="-24" r="24"/>
+        <circle cx="-48" cy="-24" r="18" fill="none"/>
+        <circle cx="-48" cy="-24" r="12" fill="none"/>
+        <circle cx="-48" cy="-24" r="6" fill="none"/>
+        <circle cx="0" cy="-24" r="24"/>
+        <circle cx="0" cy="-24" r="18" fill="none"/>
+        <circle cx="0" cy="-24" r="12" fill="none"/>
+        <circle cx="0" cy="-24" r="6" fill="none"/>
+        <circle cx="48" cy="-24" r="24"/>
+        <circle cx="48" cy="-24" r="18" fill="none"/>
+        <circle cx="48" cy="-24" r="12" fill="none"/>
+        <circle cx="48" cy="-24" r="6" fill="none"/>
+        <circle cx="96" cy="-24" r="24"/>
+        <circle cx="96" cy="-24" r="18" fill="none"/>
+        <circle cx="96" cy="-24" r="12" fill="none"/>
+        <circle cx="96" cy="-24" r="6" fill="none"/>
+        <circle cx="-24" cy="-12" r="24"/>
+        <circle cx="-24" cy="-12" r="18" fill="none"/>
+        <circle cx="-24" cy="-12" r="12" fill="none"/>
+        <circle cx="-24" cy="-12" r="6" fill="none"/>
+        <circle cx="24" cy="-12" r="24"/>
+        <circle cx="24" cy="-12" r="18" fill="none"/>
+        <circle cx="24" cy="-12" r="12" fill="none"/>
+        <circle cx="24" cy="-12" r="6" fill="none"/>
+        <circle cx="72" cy="-12" r="24"/>
+        <circle cx="72" cy="-12" r="18" fill="none"/>
+        <circle cx="72" cy="-12" r="12" fill="none"/>
+        <circle cx="72" cy="-12" r="6" fill="none"/>
+        <circle cx="120" cy="-12" r="24"/>
+        <circle cx="120" cy="-12" r="18" fill="none"/>
+        <circle cx="120" cy="-12" r="12" fill="none"/>
+        <circle cx="120" cy="-12" r="6" fill="none"/>
+        <circle cx="-48" cy="0" r="24"/>
+        <circle cx="-48" cy="0" r="18" fill="none"/>
+        <circle cx="-48" cy="0" r="12" fill="none"/>
+        <circle cx="-48" cy="0" r="6" fill="none"/>
+        <circle cx="0" cy="0" r="24"/>
+        <circle cx="0" cy="0" r="18" fill="none"/>
+        <circle cx="0" cy="0" r="12" fill="none"/>
+        <circle cx="0" cy="0" r="6" fill="none"/>
+        <circle cx="48" cy="0" r="24"/>
+        <circle cx="48" cy="0" r="18" fill="none"/>
+        <circle cx="48" cy="0" r="12" fill="none"/>
+        <circle cx="48" cy="0" r="6" fill="none"/>
+        <circle cx="96" cy="0" r="24"/>
+        <circle cx="96" cy="0" r="18" fill="none"/>
+        <circle cx="96" cy="0" r="12" fill="none"/>
+        <circle cx="96" cy="0" r="6" fill="none"/>
+        <circle cx="-24" cy="12" r="24"/>
+        <circle cx="-24" cy="12" r="18" fill="none"/>
+        <circle cx="-24" cy="12" r="12" fill="none"/>
+        <circle cx="-24" cy="12" r="6" fill="none"/>
+        <circle cx="24" cy="12" r="24"/>
+        <circle cx="24" cy="12" r="18" fill="none"/>
+        <circle cx="24" cy="12" r="12" fill="none"/>
+        <circle cx="24" cy="12" r="6" fill="none"/>
+        <circle cx="72" cy="12" r="24"/>
+        <circle cx="72" cy="12" r="18" fill="none"/>
+        <circle cx="72" cy="12" r="12" fill="none"/>
+        <circle cx="72" cy="12" r="6" fill="none"/>
+        <circle cx="120" cy="12" r="24"/>
+        <circle cx="120" cy="12" r="18" fill="none"/>
+        <circle cx="120" cy="12" r="12" fill="none"/>
+        <circle cx="120" cy="12" r="6" fill="none"/>
+        <circle cx="-48" cy="24" r="24"/>
+        <circle cx="-48" cy="24" r="18" fill="none"/>
+        <circle cx="-48" cy="24" r="12" fill="none"/>
+        <circle cx="-48" cy="24" r="6" fill="none"/>
+        <circle cx="0" cy="24" r="24"/>
+        <circle cx="0" cy="24" r="18" fill="none"/>
+        <circle cx="0" cy="24" r="12" fill="none"/>
+        <circle cx="0" cy="24" r="6" fill="none"/>
+        <circle cx="48" cy="24" r="24"/>
+        <circle cx="48" cy="24" r="18" fill="none"/>
+        <circle cx="48" cy="24" r="12" fill="none"/>
+        <circle cx="48" cy="24" r="6" fill="none"/>
+        <circle cx="96" cy="24" r="24"/>
+        <circle cx="96" cy="24" r="18" fill="none"/>
+        <circle cx="96" cy="24" r="12" fill="none"/>
+        <circle cx="96" cy="24" r="6" fill="none"/>
+        <circle cx="-24" cy="36" r="24"/>
+        <circle cx="-24" cy="36" r="18" fill="none"/>
+        <circle cx="-24" cy="36" r="12" fill="none"/>
+        <circle cx="-24" cy="36" r="6" fill="none"/>
+        <circle cx="24" cy="36" r="24"/>
+        <circle cx="24" cy="36" r="18" fill="none"/>
+        <circle cx="24" cy="36" r="12" fill="none"/>
+        <circle cx="24" cy="36" r="6" fill="none"/>
+        <circle cx="72" cy="36" r="24"/>
+        <circle cx="72" cy="36" r="18" fill="none"/>
+        <circle cx="72" cy="36" r="12" fill="none"/>
+        <circle cx="72" cy="36" r="6" fill="none"/>
+        <circle cx="120" cy="36" r="24"/>
+        <circle cx="120" cy="36" r="18" fill="none"/>
+        <circle cx="120" cy="36" r="12" fill="none"/>
+        <circle cx="120" cy="36" r="6" fill="none"/>
+        <circle cx="-48" cy="48" r="24"/>
+        <circle cx="-48" cy="48" r="18" fill="none"/>
+        <circle cx="-48" cy="48" r="12" fill="none"/>
+        <circle cx="-48" cy="48" r="6" fill="none"/>
+        <circle cx="0" cy="48" r="24"/>
+        <circle cx="0" cy="48" r="18" fill="none"/>
+        <circle cx="0" cy="48" r="12" fill="none"/>
+        <circle cx="0" cy="48" r="6" fill="none"/>
+        <circle cx="48" cy="48" r="24"/>
+        <circle cx="48" cy="48" r="18" fill="none"/>
+        <circle cx="48" cy="48" r="12" fill="none"/>
+        <circle cx="48" cy="48" r="6" fill="none"/>
+        <circle cx="96" cy="48" r="24"/>
+        <circle cx="96" cy="48" r="18" fill="none"/>
+        <circle cx="96" cy="48" r="12" fill="none"/>
+        <circle cx="96" cy="48" r="6" fill="none"/>
+      </g>
+    </pattern>
+    <linearGradient id="deepen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8E1F1D" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#8E1F1D" stop-opacity="0.55"/>
+    </linearGradient>
+    <clipPath id="clip"><rect x="0" y="0" width="900" height="72" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="900" height="72" fill="#BC2D29"/>
+    <rect width="900" height="72" fill="url(#waves)"/>
+    <rect width="900" height="72" fill="url(#deepen)"/>
+    <circle cx="450" cy="36" r="26" fill="#BC2D29" stroke="#F4EBDA" stroke-width="2"/>
+    <text x="450" y="45" text-anchor="middle" fill="#F4EBDA" font-size="24" font-weight="700"
+          font-family='"Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif'>遊</text>
+  </g>
+</svg>
