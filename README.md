@@ -17,9 +17,9 @@
 
 </div>
 
-I am an MSc student in Computer Science at **Ontario Tech**, in the SEGAL Lab. My areas are
+I am an MSc student in Computer Science at **Ontario Tech**, in the UIXID/CodeandSocery Lab. My areas are
 software design, AI, and reinforcement learning. I hold a BIT in Networking and Cybersecurity,
-with Dean's List, and the CCNA. I build deep RL agents. I also program Intel Tofino P4 data planes.
+with Dean's List, and the CCNA. I build deep RL agents. I also program Intel Tofino P4 data planes, and do Network Automation.
 
 <img src="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/assets/h-research.svg" alt="Research 研究" width="100%" />
 
