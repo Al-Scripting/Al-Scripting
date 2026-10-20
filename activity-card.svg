@@ -62,60 +62,60 @@
     <animate attributeName="opacity" from="0" to="1" dur="0.45s"
              begin="0.16s" fill="freeze"/>
     <text x="34" y="166" class="label">COMMITS</text>
-    <text x="148" y="166" class="signal">524 commits this year</text>
+    <text x="148" y="166" class="signal">529 commits this year</text>
     <rect x="360" y="156" width="340" height="12" rx="6" class="track"/>
-    <rect x="360" y="156" width="221.4" height="12" rx="6" class="fill">
-      <animate attributeName="width" from="0" to="221.4"
+    <rect x="360" y="156" width="223.7" height="12" rx="6" class="fill">
+      <animate attributeName="width" from="0" to="223.7"
                dur="1.05s" begin="0.44s" fill="freeze"
                calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
     </rect>
-    <text x="714" y="166" class="score">0.65</text>
+    <text x="714" y="166" class="score">0.66</text>
   </g>
   <g>
     <animate attributeName="opacity" from="0" to="1" dur="0.45s"
              begin="0.30s" fill="freeze"/>
     <text x="34" y="206" class="label">CONSISTENCY</text>
-    <text x="148" y="206" class="signal">1-day streak · 1354 contributions</text>
+    <text x="148" y="206" class="signal">2-day streak · 1365 contributions</text>
     <rect x="360" y="196" width="340" height="12" rx="6" class="track"/>
-    <rect x="360" y="196" width="317.5" height="12" rx="6" class="fill">
-      <animate attributeName="width" from="0" to="317.5"
+    <rect x="360" y="196" width="323.2" height="12" rx="6" class="fill">
+      <animate attributeName="width" from="0" to="323.2"
                dur="1.05s" begin="0.58s" fill="freeze"
                calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
     </rect>
-    <text x="714" y="206" class="score">0.93</text>
+    <text x="714" y="206" class="score">0.95</text>
   </g>
   <g>
     <animate attributeName="opacity" from="0" to="1" dur="0.45s"
              begin="0.44s" fill="freeze"/>
     <text x="34" y="246" class="label">COLLAB</text>
-    <text x="148" y="246" class="signal">24 PRs · 7 issues · 0 reviews</text>
+    <text x="148" y="246" class="signal">26 PRs · 7 issues · 0 reviews</text>
     <rect x="360" y="236" width="340" height="12" rx="6" class="track"/>
-    <rect x="360" y="236" width="125.2" height="12" rx="6" class="fill">
-      <animate attributeName="width" from="0" to="125.2"
+    <rect x="360" y="236" width="134.8" height="12" rx="6" class="fill">
+      <animate attributeName="width" from="0" to="134.8"
                dur="1.05s" begin="0.72s" fill="freeze"
                calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
     </rect>
-    <text x="714" y="246" class="score">0.37</text>
+    <text x="714" y="246" class="score">0.40</text>
   </g>
 
   <g>
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.55s" fill="freeze"/>
     <text x="724" y="190" class="glabel">52-week contributions</text>
-    <path d="M724.0,244.9 L726.7,244.9 L729.5,244.6 L732.2,244.9 L734.9,247.2 L737.7,248.0 L740.4,247.7 L743.1,232.1 L745.8,248.0 L748.6,248.0 L751.3,248.0 L754.0,248.0 L756.8,245.6 L759.5,240.7 L762.2,239.1 L765.0,237.0 L767.7,245.9 L770.4,242.5 L773.2,243.3 L775.9,241.5 L778.6,241.2 L781.3,241.2 L784.1,245.4 L786.8,247.2 L789.5,246.4 L792.3,248.0 L795.0,248.0 L797.7,248.0 L800.5,247.2 L803.2,248.0 L805.9,247.5 L808.7,247.5 L811.4,246.2 L814.1,247.0 L816.8,247.0 L819.6,245.1 L822.3,245.1 L825.0,247.0 L827.8,244.9 L830.5,231.3 L833.2,238.9 L836.0,233.1 L838.7,240.7 L841.4,218.7 L844.2,238.3 L846.9,237.0 L849.6,227.9 L852.3,243.0 L855.1,227.1 L857.8,217.9 L860.5,202.0 L863.3,227.1 L866.0,247.5 L866.0,248.0 L724.0,248.0 Z" class="spark-area"/>
-    <path d="M724.0,244.9 L726.7,244.9 L729.5,244.6 L732.2,244.9 L734.9,247.2 L737.7,248.0 L740.4,247.7 L743.1,232.1 L745.8,248.0 L748.6,248.0 L751.3,248.0 L754.0,248.0 L756.8,245.6 L759.5,240.7 L762.2,239.1 L765.0,237.0 L767.7,245.9 L770.4,242.5 L773.2,243.3 L775.9,241.5 L778.6,241.2 L781.3,241.2 L784.1,245.4 L786.8,247.2 L789.5,246.4 L792.3,248.0 L795.0,248.0 L797.7,248.0 L800.5,247.2 L803.2,248.0 L805.9,247.5 L808.7,247.5 L811.4,246.2 L814.1,247.0 L816.8,247.0 L819.6,245.1 L822.3,245.1 L825.0,247.0 L827.8,244.9 L830.5,231.3 L833.2,238.9 L836.0,233.1 L838.7,240.7 L841.4,218.7 L844.2,238.3 L846.9,237.0 L849.6,227.9 L852.3,243.0 L855.1,227.1 L857.8,217.9 L860.5,202.0 L863.3,227.1 L866.0,247.5" class="spark-line" stroke-dasharray="227" stroke-dashoffset="227">
+    <path d="M724.0,244.9 L726.7,244.9 L729.5,244.6 L732.2,244.9 L734.9,247.2 L737.7,248.0 L740.4,247.7 L743.1,232.1 L745.8,248.0 L748.6,248.0 L751.3,248.0 L754.0,248.0 L756.8,245.6 L759.5,240.7 L762.2,239.1 L765.0,237.0 L767.7,245.9 L770.4,242.5 L773.2,243.3 L775.9,241.5 L778.6,241.2 L781.3,241.2 L784.1,245.4 L786.8,247.2 L789.5,246.4 L792.3,248.0 L795.0,248.0 L797.7,248.0 L800.5,247.2 L803.2,248.0 L805.9,247.5 L808.7,247.5 L811.4,246.2 L814.1,247.0 L816.8,247.0 L819.6,245.1 L822.3,245.1 L825.0,247.0 L827.8,244.9 L830.5,231.3 L833.2,238.9 L836.0,233.1 L838.7,240.7 L841.4,218.7 L844.2,238.3 L846.9,237.0 L849.6,227.9 L852.3,243.0 L855.1,227.1 L857.8,217.9 L860.5,202.0 L863.3,226.6 L866.0,245.1 L866.0,248.0 L724.0,248.0 Z" class="spark-area"/>
+    <path d="M724.0,244.9 L726.7,244.9 L729.5,244.6 L732.2,244.9 L734.9,247.2 L737.7,248.0 L740.4,247.7 L743.1,232.1 L745.8,248.0 L748.6,248.0 L751.3,248.0 L754.0,248.0 L756.8,245.6 L759.5,240.7 L762.2,239.1 L765.0,237.0 L767.7,245.9 L770.4,242.5 L773.2,243.3 L775.9,241.5 L778.6,241.2 L781.3,241.2 L784.1,245.4 L786.8,247.2 L789.5,246.4 L792.3,248.0 L795.0,248.0 L797.7,248.0 L800.5,247.2 L803.2,248.0 L805.9,247.5 L808.7,247.5 L811.4,246.2 L814.1,247.0 L816.8,247.0 L819.6,245.1 L822.3,245.1 L825.0,247.0 L827.8,244.9 L830.5,231.3 L833.2,238.9 L836.0,233.1 L838.7,240.7 L841.4,218.7 L844.2,238.3 L846.9,237.0 L849.6,227.9 L852.3,243.0 L855.1,227.1 L857.8,217.9 L860.5,202.0 L863.3,226.6 L866.0,245.1" class="spark-line" stroke-dasharray="227" stroke-dashoffset="227">
       <animate attributeName="stroke-dashoffset" from="227" to="0"
                dur="1.6s" begin="0.6s" fill="freeze"
                calcMode="spline" keySplines="0.3 0.9 0.3 1" keyTimes="0;1"/>
     </path>
-    <circle cx="866.0" cy="247.5" r="3" class="spark-dot">
+    <circle cx="866.0" cy="245.1" r="3" class="spark-dot">
       <animate attributeName="opacity" values="1;0.25;1" dur="2.2s" repeatCount="indefinite"/>
     </circle>
   </g>
 
   <line x1="34" y1="278" x2="866" y2="278" stroke="#D8C5A0" stroke-width="1"/>
-  <text x="34" y="296" class="foot"><tspan class="accent">1354</tspan> contributions
-    &#183; <tspan class="accent">1d</tspan> streak
+  <text x="34" y="296" class="foot"><tspan class="accent">1365</tspan> contributions
+    &#183; <tspan class="accent">2d</tspan> streak
     &#183; 194 repos &#183; 10 languages
     &#183; 8 stars</text>
-  <text x="866" y="296" class="foot" text-anchor="end">2026-10-19 13:49 UTC</text>
+  <text x="866" y="296" class="foot" text-anchor="end">2026-10-20 11:57 UTC</text>
 </svg>
