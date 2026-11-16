@@ -13,7 +13,7 @@ on:
 # This needs the METRICS_TOKEN PAT to carry `read:org` as well as `repo`.
 env:
   AFFILIATIONS: owner, collaborator, organization_member
-  # Terminal-red on near-black, matching banner.svg — not the metrics default palette.
+  # Terminal-red on near-black, not the metrics default palette.
   BRAND_CSS: |
     .header .title { fill: #E5484D !important; font-weight: 700 !important; }
     .header .subtitle { fill: #8B949E !important; }
