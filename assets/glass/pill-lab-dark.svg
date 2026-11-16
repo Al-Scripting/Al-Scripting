@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="52" viewBox="0 0 168 52" role="img" aria-label="Lab">
+<title>Lab</title>
+<defs>
+<clipPath id="tile"><rect width="168" height="52" rx="26"/></clipPath>
+<clipPath id="pane"><rect x="5" y="5" width="158" height="42" rx="20"/></clipPath>
+<filter id="blur28" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="28"/></filter>
+<filter id="blur60" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.06 0"/></filter>
+<linearGradient id="sheen" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.45"/><stop offset="0.45" stop-color="#fff" stop-opacity="0.06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.3"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.07"/><stop offset="1" stop-color="#fff" stop-opacity="0.21"/></linearGradient>
+</defs>
+<g clip-path="url(#tile)">
+<rect width="168" height="52" fill="#0d1117"/>
+<g filter="url(#blur28)"><circle cx="49" cy="21" r="37" fill="#c43d2b" opacity="0.75"><animateTransform attributeName="transform" type="translate" values="0 0;-13 6;0 0" dur="20s" repeatCount="indefinite"/></circle><circle cx="118" cy="17" r="47" fill="#3b4fc4" opacity="0.75"><animateTransform attributeName="transform" type="translate" values="0 0;13 6;0 0" dur="16s" repeatCount="indefinite"/></circle><circle cx="70" cy="14" r="57" fill="#b8862a" opacity="0.75"><animateTransform attributeName="transform" type="translate" values="0 0;-13 -6;0 0" dur="21s" repeatCount="indefinite"/></circle><circle cx="139" cy="19" r="37" fill="#ff6a4d" opacity="0.75"><animateTransform attributeName="transform" type="translate" values="0 0;13 -6;0 0" dur="17s" repeatCount="indefinite"/></circle></g>
+<g clip-path="url(#pane)">
+<rect width="168" height="52" fill="#0d1117"/>
+<g filter="url(#blur60)"><circle cx="49" cy="21" r="37" fill="#c43d2b" opacity="0.75"><animateTransform attributeName="transform" type="translate" values="0 0;-13 6;0 0" dur="20s" repeatCount="indefinite"/></circle><circle cx="118" cy="17" r="47" fill="#3b4fc4" opacity="0.75"><animateTransform attributeName="transform" type="translate" values="0 0;13 6;0 0" dur="16s" repeatCount="indefinite"/></circle><circle cx="70" cy="14" r="57" fill="#b8862a" opacity="0.75"><animateTransform attributeName="transform" type="translate" values="0 0;-13 -6;0 0" dur="21s" repeatCount="indefinite"/></circle><circle cx="139" cy="19" r="37" fill="#ff6a4d" opacity="0.75"><animateTransform attributeName="transform" type="translate" values="0 0;13 -6;0 0" dur="17s" repeatCount="indefinite"/></circle></g>
+<rect x="5" y="5" width="158" height="42" fill="#0d1117" opacity="0.55"/>
+<rect x="5" y="5" width="158" height="42" fill="#ffffff" opacity="0.06"/>
+<rect x="5" y="5" width="158" height="42" filter="url(#grain)"/>
+<rect x="5" y="5" width="158" height="25" fill="url(#sheen)"/>
+</g>
+<rect x="5.6" y="5.6" width="156.8" height="40.8" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.2"/>
+</g>
+<circle cx="32" cy="26" r="4.5" fill="#ff8a6e"/><text x="94" y="31" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f5f1ea" text-anchor="middle" letter-spacing="1.5">LAB</text>
+</svg>
