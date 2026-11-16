@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="312" viewBox="0 0 900 312" role="img" aria-label="Al-Scripting, live GitHub activity">
+<title>Al-Scripting, live GitHub activity</title>
+<defs>
+<clipPath id="tile"><rect width="900" height="312" rx="26"/></clipPath>
+<clipPath id="pane"><rect x="14" y="14" width="872" height="284" rx="20"/></clipPath>
+<filter id="blur28" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="28"/></filter>
+<filter id="blur60" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.06 0"/></filter>
+<linearGradient id="sheen" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.45"/><stop offset="0.45" stop-color="#fff" stop-opacity="0.06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.3"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.07"/><stop offset="1" stop-color="#fff" stop-opacity="0.21"/></linearGradient>
+</defs>
+<g clip-path="url(#tile)">
+<rect width="900" height="312" fill="#0d1117"/>
+<g filter="url(#blur28)"><circle cx="324" cy="158" r="198" fill="#c43d2b" opacity="0.75"><animateTransform attributeName="transform" type="translate" values="0 0;-72 37;0 0" dur="14s" repeatCount="indefinite"/></circle><circle cx="696" cy="135" r="252" fill="#3b4fc4" opacity="0.75"><animateTransform attributeName="transform" type="translate" values="0 0;72 37;0 0" dur="19s" repeatCount="indefinite"/></circle><circle cx="437" cy="113" r="306" fill="#b8862a" opacity="0.75"><animateTransform attributeName="transform" type="translate" values="0 0;-72 -37;0 0" dur="15s" repeatCount="indefinite"/></circle><circle cx="179" cy="147" r="198" fill="#ff6a4d" opacity="0.75"><animateTransform attributeName="transform" type="translate" values="0 0;72 -37;0 0" dur="20s" repeatCount="indefinite"/></circle></g>
+<g clip-path="url(#pane)">
+<rect width="900" height="312" fill="#0d1117"/>
+<g filter="url(#blur60)"><circle cx="324" cy="158" r="198" fill="#c43d2b" opacity="0.75"><animateTransform attributeName="transform" type="translate" values="0 0;-72 37;0 0" dur="14s" repeatCount="indefinite"/></circle><circle cx="696" cy="135" r="252" fill="#3b4fc4" opacity="0.75"><animateTransform attributeName="transform" type="translate" values="0 0;72 37;0 0" dur="19s" repeatCount="indefinite"/></circle><circle cx="437" cy="113" r="306" fill="#b8862a" opacity="0.75"><animateTransform attributeName="transform" type="translate" values="0 0;-72 -37;0 0" dur="15s" repeatCount="indefinite"/></circle><circle cx="179" cy="147" r="198" fill="#ff6a4d" opacity="0.75"><animateTransform attributeName="transform" type="translate" values="0 0;72 -37;0 0" dur="20s" repeatCount="indefinite"/></circle></g>
+<rect x="14" y="14" width="872" height="284" fill="#0d1117" opacity="0.55"/>
+<rect x="14" y="14" width="872" height="284" fill="#ffffff" opacity="0.06"/>
+<rect x="14" y="14" width="872" height="284" filter="url(#grain)"/>
+<rect x="14" y="14" width="872" height="170" fill="url(#sheen)"/>
+</g>
+<rect x="14.6" y="14.6" width="870.8" height="282.8" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.2"/>
+</g>
+
+  <style>
+    text { font-family: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace; }
+    .title { fill: #f5f1ea; font-size: 18px; font-weight: 800; letter-spacing: 4px; }
+    .kanji { fill: #ff8a6e; font-size: 15px; letter-spacing: 3px; font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif JP', serif; }
+    .sub { fill: #d4cfc6; font-size: 10.5px; letter-spacing: 0.4px; }
+    .label { fill: #f5f1ea; font-size: 11.5px; font-weight: 700; letter-spacing: 1.2px; }
+    .signal { fill: #d4cfc6; font-size: 9.5px; }
+    .score { fill: #ff8a6e; font-size: 11.5px; font-weight: 700; }
+    .track { fill: #fff; fill-opacity: 0.1; stroke: #fff; stroke-opacity: 0.15; }
+    .fill { fill: url(#grad); }
+    .spark-line { fill: none; stroke: #ff8a6e; stroke-width: 1.6; stroke-linejoin: round; }
+    .spark-area { fill: url(#fade); }
+    .spark-dot { fill: #ff8a6e; }
+    .glabel { fill: #d4cfc6; font-size: 9px; letter-spacing: 0.6px; }
+    .foot { fill: #d4cfc6; font-size: 9.5px; }
+    .accent { fill: #ff8a6e; font-size: 9.5px; font-weight: 700; }
+  </style>
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b4fc4"/>
+      <stop offset="100%" stop-color="#ff8a6e"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff8a6e" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#ff8a6e" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="40" y="40" width="34" height="34" rx="8" fill="#ff8a6e"/>
+  <text x="57" y="63" text-anchor="middle" style="fill:#fff;font-size:16px;font-weight:700;font-family:'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif JP', serif">活</text>
+  <text x="88" y="56" class="title">GITHUB ACTIVITY <tspan class="kanji" dx="6">活動記録</tspan></text>
+  <text x="88" y="74" class="sub">generated daily from the GitHub API<tspan> _<animate
+    attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/></tspan></text>
+
+
+  <g>
+    <animate attributeName="opacity" from="0" to="1" dur="0.45s"
+             begin="0.02s" fill="freeze"/>
+    <text x="40" y="126" class="label">BREADTH</text>
+    <text x="154" y="126" class="signal">9 languages · 11 repos touched</text>
+    <rect x="364" y="116" width="330" height="12" rx="6" class="track"/>
+    <rect x="364" y="116" width="191.2" height="12" rx="6" class="fill">
+      <animate attributeName="width" from="0" to="191.2"
+               dur="1.05s" begin="0.30s" fill="freeze"
+               calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
+    </rect>
+    <text x="708" y="126" class="score">0.58</text>
+  </g>
+  <g>
+    <animate attributeName="opacity" from="0" to="1" dur="0.45s"
+             begin="0.16s" fill="freeze"/>
+    <text x="40" y="166" class="label">COMMITS</text>
+    <text x="154" y="166" class="signal">645 commits this year</text>
+    <rect x="364" y="156" width="330" height="12" rx="6" class="track"/>
+    <rect x="364" y="156" width="262.1" height="12" rx="6" class="fill">
+      <animate attributeName="width" from="0" to="262.1"
+               dur="1.05s" begin="0.44s" fill="freeze"
+               calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
+    </rect>
+    <text x="708" y="166" class="score">0.79</text>
+  </g>
+  <g>
+    <animate attributeName="opacity" from="0" to="1" dur="0.45s"
+             begin="0.30s" fill="freeze"/>
+    <text x="40" y="206" class="label">CONSISTENCY</text>
+    <text x="154" y="206" class="signal">5-day streak · 1633 contributions</text>
+    <rect x="364" y="196" width="330" height="12" rx="6" class="track"/>
+    <rect x="364" y="196" width="327.2" height="12" rx="6" class="fill">
+      <animate attributeName="width" from="0" to="327.2"
+               dur="1.05s" begin="0.58s" fill="freeze"
+               calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
+    </rect>
+    <text x="708" y="206" class="score">0.99</text>
+  </g>
+  <g>
+    <animate attributeName="opacity" from="0" to="1" dur="0.45s"
+             begin="0.44s" fill="freeze"/>
+    <text x="40" y="246" class="label">COLLAB</text>
+    <text x="154" y="246" class="signal">26 PRs · 7 issues · 0 reviews</text>
+    <rect x="364" y="236" width="330" height="12" rx="6" class="track"/>
+    <rect x="364" y="236" width="130.9" height="12" rx="6" class="fill">
+      <animate attributeName="width" from="0" to="130.9"
+               dur="1.05s" begin="0.72s" fill="freeze"
+               calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
+    </rect>
+    <text x="708" y="246" class="score">0.40</text>
+  </g>
+
+  <g>
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.55s" fill="freeze"/>
+    <text x="726" y="190" class="glabel">52-week contributions</text>
+    <path d="M726.0,247.2 L728.6,248.0 L731.2,247.7 L733.8,232.1 L736.5,248.0 L739.1,248.0 L741.7,248.0 L744.3,248.0 L746.9,245.6 L749.5,240.7 L752.2,239.1 L754.8,237.0 L757.4,245.9 L760.0,242.5 L762.6,243.3 L765.2,241.5 L767.8,241.2 L770.5,241.2 L773.1,245.4 L775.7,247.2 L778.3,246.4 L780.9,248.0 L783.5,248.0 L786.2,248.0 L788.8,247.2 L791.4,248.0 L794.0,247.5 L796.6,247.5 L799.2,246.2 L801.8,247.0 L804.5,247.0 L807.1,245.1 L809.7,245.1 L812.3,247.0 L814.9,244.9 L817.5,231.3 L820.2,238.9 L822.8,233.1 L825.4,240.7 L828.0,218.7 L830.6,238.3 L833.2,237.0 L835.8,227.9 L838.5,243.0 L841.1,227.1 L843.7,217.4 L846.3,202.0 L848.9,223.4 L851.5,235.2 L854.2,216.1 L856.8,227.6 L859.4,234.1 L862.0,244.9 L862.0,248.0 L726.0,248.0 Z" class="spark-area"/>
+    <path d="M726.0,247.2 L728.6,248.0 L731.2,247.7 L733.8,232.1 L736.5,248.0 L739.1,248.0 L741.7,248.0 L744.3,248.0 L746.9,245.6 L749.5,240.7 L752.2,239.1 L754.8,237.0 L757.4,245.9 L760.0,242.5 L762.6,243.3 L765.2,241.5 L767.8,241.2 L770.5,241.2 L773.1,245.4 L775.7,247.2 L778.3,246.4 L780.9,248.0 L783.5,248.0 L786.2,248.0 L788.8,247.2 L791.4,248.0 L794.0,247.5 L796.6,247.5 L799.2,246.2 L801.8,247.0 L804.5,247.0 L807.1,245.1 L809.7,245.1 L812.3,247.0 L814.9,244.9 L817.5,231.3 L820.2,238.9 L822.8,233.1 L825.4,240.7 L828.0,218.7 L830.6,238.3 L833.2,237.0 L835.8,227.9 L838.5,243.0 L841.1,227.1 L843.7,217.4 L846.3,202.0 L848.9,223.4 L851.5,235.2 L854.2,216.1 L856.8,227.6 L859.4,234.1 L862.0,244.9" class="spark-line" stroke-dasharray="217" stroke-dashoffset="217">
+      <animate attributeName="stroke-dashoffset" from="217" to="0"
+               dur="1.6s" begin="0.6s" fill="freeze"
+               calcMode="spline" keySplines="0.3 0.9 0.3 1" keyTimes="0;1"/>
+    </path>
+    <circle cx="862.0" cy="244.9" r="3" class="spark-dot">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <line x1="40" y1="268" x2="860" y2="268" stroke="#fff" stroke-opacity="0.18" stroke-width="1"/>
+  <text x="40" y="286" class="foot"><tspan class="accent">1633</tspan> contributions
+    &#183; <tspan class="accent">5d</tspan> streak
+    &#183; 327 repos &#183; 9 languages
+    &#183; 8 stars</text>
+  <text x="860" y="286" class="foot" text-anchor="end">2026-11-16 19:50 UTC</text>
+
+</svg>

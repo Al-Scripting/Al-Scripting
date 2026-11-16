@@ -193,16 +193,14 @@ def build_metrics(user: dict) -> tuple[list[Metric], dict, list[int]]:
 
 # --------------------------------------------------------------------------- render
 
+from make_glass import JP, MONO, THEMES, card  # same glass panel as the README cards
+
 # Four columns that must not collide: label | signal | bar | score.
 WIDTH, HEIGHT = 900, 312
-LABEL_X, SIGNAL_X = 34, 148
-BAR_X, BAR_W, BAR_H = 360, 340, 12
-SPARK_X, SPARK_W, SPARK_H = 724, 142, 46
+LABEL_X, SIGNAL_X = 40, 154
+BAR_X, BAR_W, BAR_H = 364, 330, 12
+SPARK_X, SPARK_W, SPARK_H = 726, 136, 46
 ROW_Y, ROW_GAP = 116, 40
-
-# Neo-Japanese palette: vermillion ink on kinari paper.
-RED, DIM, INK, BG = "#BC2D29", "#8C7B66", "#2B2320", "#F4EBDA"
-CHROME, TRACK, LINE, GRAD0 = "#EAE0C9", "#E3D5B8", "#D8C5A0", "#8E1F1D"
 
 
 def bar(index: int, metric: Metric) -> str:
@@ -234,7 +232,7 @@ def sparkline(weekly: list[int]) -> str:
     """52 weeks of contributions, drawn small, with the line stroking itself in.
 
     The draw-on effect is a dash offset animated to zero, which needs the path
-    length; a straight-line estimate is close enough for a 142px sparkline and
+    length; a straight-line estimate is close enough for a small sparkline and
     avoids measuring geometry we cannot query from a script.
     """
     if not weekly:
@@ -267,74 +265,65 @@ def sparkline(weekly: list[int]) -> str:
   </g>"""
 
 
-def render(metrics: list[Metric], facts: dict, weekly: list[int], login: str) -> str:
-    """Assemble the card. Pure string building — no templating dependency."""
+def render(metrics: list[Metric], facts: dict, weekly: list[int], login: str, mode: str = "light") -> str:
+    """Assemble the card on the glass panel. Pure string building, no templating dependency."""
+    t = THEMES[mode]
+    accent, sub, ink = t["accent"], t["sub"], t["ink"]
     rows = "".join(bar(index, metric) for index, metric in enumerate(metrics))
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}"
-     viewBox="0 0 {WIDTH} {HEIGHT}" role="img"
-     aria-label="Live GitHub activity for {login}">
-  <title>{login} — live GitHub activity</title>
+    body = f"""
   <style>
-    text {{ font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace; }}
-    .frame {{ fill: {BG}; stroke: {RED}; stroke-opacity: 0.85; stroke-width: 2; }}
-    .chrome {{ fill: {CHROME}; }}
-    .kacc {{ fill: {RED}; font-size: 15px; font-weight: 700;
-            font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif; }}
-    .title {{ fill: {RED}; font-size: 16px; font-weight: 700; letter-spacing: 2px; }}
-    .sub {{ fill: {DIM}; font-size: 10.5px; letter-spacing: 0.4px; }}
-    .label {{ fill: {INK}; font-size: 11.5px; font-weight: 700; letter-spacing: 1.2px; }}
-    .signal {{ fill: {DIM}; font-size: 9.5px; }}
-    .score {{ fill: {RED}; font-size: 11.5px; font-weight: 700; }}
-    .track {{ fill: {TRACK}; }}
+    text {{ font-family: {MONO}; }}
+    .title {{ fill: {ink}; font-size: 18px; font-weight: 800; letter-spacing: 4px; }}
+    .kanji {{ fill: {accent}; font-size: 15px; letter-spacing: 3px; font-family: {JP}; }}
+    .sub {{ fill: {sub}; font-size: 10.5px; letter-spacing: 0.4px; }}
+    .label {{ fill: {ink}; font-size: 11.5px; font-weight: 700; letter-spacing: 1.2px; }}
+    .signal {{ fill: {sub}; font-size: 9.5px; }}
+    .score {{ fill: {accent}; font-size: 11.5px; font-weight: 700; }}
+    .track {{ fill: #fff; fill-opacity: {t['chip_op']}; stroke: #fff; stroke-opacity: {t['edge_op'] * 0.5:.2f}; }}
     .fill {{ fill: url(#grad); }}
-    .spark-line {{ fill: none; stroke: {RED}; stroke-width: 1.6; stroke-linejoin: round; }}
+    .spark-line {{ fill: none; stroke: {accent}; stroke-width: 1.6; stroke-linejoin: round; }}
     .spark-area {{ fill: url(#fade); }}
-    .spark-dot {{ fill: {RED}; }}
-    .glabel {{ fill: {DIM}; font-size: 9px; letter-spacing: 0.6px; }}
-    .foot {{ fill: {DIM}; font-size: 9.5px; }}
-    .accent {{ fill: {RED}; font-size: 9.5px; font-weight: 700; }}
+    .spark-dot {{ fill: {accent}; }}
+    .glabel {{ fill: {sub}; font-size: 9px; letter-spacing: 0.6px; }}
+    .foot {{ fill: {sub}; font-size: 9.5px; }}
+    .accent {{ fill: {accent}; font-size: 9.5px; font-weight: 700; }}
   </style>
   <defs>
     <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="{GRAD0}"/>
-      <stop offset="100%" stop-color="{RED}"/>
+      <stop offset="0%" stop-color="{t['blobs'][1]}"/>
+      <stop offset="100%" stop-color="{accent}"/>
     </linearGradient>
     <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="{RED}" stop-opacity="0.30"/>
-      <stop offset="100%" stop-color="{RED}" stop-opacity="0"/>
+      <stop offset="0%" stop-color="{accent}" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="{accent}" stop-opacity="0"/>
     </linearGradient>
   </defs>
 
-  <rect x="1" y="1" width="{WIDTH - 2}" height="{HEIGHT - 2}" rx="12" class="frame"/>
-  <path d="M1 13 a12 12 0 0 1 12-12 h{WIDTH - 26} a12 12 0 0 1 12 12 v19 h-{WIDTH - 2} z" class="chrome"/>
-  <circle cx="24" cy="17" r="4.5" fill="{RED}"/>
-  <circle cx="40" cy="17" r="4.5" fill="#CDBC9C"/>
-  <circle cx="56" cy="17" r="4.5" fill="#CDBC9C"/>
-  <text x="{WIDTH / 2}" y="21" class="sub" text-anchor="middle">al@oshawa: ~/activity --live</text>
-
-  <text x="34" y="64" class="title">GITHUB ACTIVITY <tspan class="kacc" dx="6">活動記録</tspan></text>
-  <text x="34" y="83" class="sub">generated daily from the GitHub API<tspan> _<animate
+  <rect x="40" y="40" width="34" height="34" rx="8" fill="{accent}"/>
+  <text x="57" y="63" text-anchor="middle" style="fill:#fff;font-size:16px;font-weight:700;font-family:{JP}">活</text>
+  <text x="88" y="56" class="title">GITHUB ACTIVITY <tspan class="kanji" dx="6">活動記録</tspan></text>
+  <text x="88" y="74" class="sub">generated daily from the GitHub API<tspan> _<animate
     attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/></tspan></text>
 
 {rows}
 {sparkline(weekly)}
 
-  <line x1="34" y1="{HEIGHT - 34}" x2="{WIDTH - 34}" y2="{HEIGHT - 34}" stroke="{LINE}" stroke-width="1"/>
-  <text x="34" y="{HEIGHT - 16}" class="foot"><tspan class="accent">{facts['total']}</tspan> contributions
+  <line x1="40" y1="{HEIGHT - 44}" x2="{WIDTH - 40}" y2="{HEIGHT - 44}" stroke="#fff" stroke-opacity="{t['edge_op'] * 0.6:.2f}" stroke-width="1"/>
+  <text x="40" y="{HEIGHT - 26}" class="foot"><tspan class="accent">{facts['total']}</tspan> contributions
     &#183; <tspan class="accent">{facts['streak']}d</tspan> streak
     &#183; {facts['repos']} repos &#183; {facts['languages']} languages
     &#183; {facts['stars']} stars</text>
-  <text x="{WIDTH - 34}" y="{HEIGHT - 16}" class="foot" text-anchor="end">{stamp}</text>
-</svg>
+  <text x="{WIDTH - 40}" y="{HEIGHT - 26}" class="foot" text-anchor="end">{stamp}</text>
 """
+    return card(t, WIDTH, HEIGHT, 9, body, f"{login}, live GitHub activity", pad=14, rx=26)
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--user", required=True)
-    parser.add_argument("--out", default="activity-card.svg")
+    parser.add_argument("--out", default="activity-card.svg", help="light card; the dark card goes next to it as *-dark.svg")
     args = parser.parse_args()
 
     token = os.environ.get("GITHUB_TOKEN")
@@ -349,12 +338,14 @@ def main() -> int:
         return 1
 
     metrics, facts, weekly = build_metrics(user)
-    with open(args.out, "w", encoding="utf8") as handle:
-        handle.write(render(metrics, facts, weekly, args.user))
+    root, ext = os.path.splitext(args.out)
+    for mode, path in (("light", args.out), ("dark", f"{root}-dark{ext}")):
+        with open(path, "w", encoding="utf8") as handle:
+            handle.write(render(metrics, facts, weekly, args.user, mode))
+        print(f"wrote {path}")
 
     for metric in metrics:
         print(f"{metric.label:<12} {metric.score:.3f}  ({metric.signal})")
-    print(f"wrote {args.out}")
     return 0
 
 

@@ -123,7 +123,7 @@ I work in these lab tracks: [the LLM-NPC landscape](https://cslab.quest/projects
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/activity-card.svg" alt="Live GitHub activity card" width="100%" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/activity-card-dark.svg" /><img src="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/activity-card.svg" alt="Live GitHub activity card" width="100%" /></picture>
 
 <sub><i>A script makes this card each day. See <a href="https://github.com/Al-Scripting/Al-Scripting/blob/main/scripts/activity_card.py">scripts/activity_card.py</a>.</i></sub>
 
