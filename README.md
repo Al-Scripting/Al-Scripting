@@ -146,8 +146,6 @@ I work in these lab tracks: [the LLM-NPC landscape](https://cslab.quest/projects
   <img alt="snake eating my contribution graph" src="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/output/github-snake.svg" />
 </picture>
 
-<sub><i>The best software feels like a game.</i></sub>
-
-<img src="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/assets/footer.svg" width="100%" alt="" />
+<a href="https://al-scripting.github.io/about-me/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/assets/glass/footer-dark.svg" /><img src="https://raw.githubusercontent.com/Al-Scripting/Al-Scripting/main/assets/glass/footer-light.svg" alt="Code and sorcery, research and implementation. The best software feels like a game." width="100%" /></picture></a>
 
 </div>

@@ -222,6 +222,18 @@ def lab(t: dict) -> str:
     return card(t, w, h, 5, body, "Code and Sorcery Lab, Ontario Tech University", pad=14, rx=26)
 
 
+def footer(t: dict) -> str:
+    w, h = 900, 150
+    body = f"""
+<image href="{b64('hanko-seal.png')}" x="426" y="30" width="48" height="48"/>
+<text x="450" y="104" font-family="{JP}" font-size="16" fill="{t['accent']}" text-anchor="middle" letter-spacing="6">コードと魔術・研究と実装</text>
+<text x="450" y="126" font-family="{SANS}" font-size="13" font-style="italic" fill="{t['sub']}" text-anchor="middle">The best software feels like a game.</text>
+<text x="40" y="126" font-family="{MONO}" font-size="11" fill="{t['sub']}">Ontario, Canada</text>
+<text x="860" y="126" font-family="{MONO}" font-size="11" fill="{t['sub']}" text-anchor="end">al-scripting.github.io</text>
+"""
+    return card(t, w, h, 8, body, "Code and sorcery, research and implementation", pad=14, rx=26)
+
+
 PAPERS = [
     dict(slug="ridge", num="001", venue="IEEE CoG 2026 · Madrid", role="first author",
          title="RIDGE: State-Conditioned Reward Blending for Behavioral Coverage in Deep RL Game Agents",
@@ -285,6 +297,7 @@ def main() -> None:
     for mode, t in THEMES.items():
         files[f"hero-{mode}"] = hero(t)
         files[f"lab-{mode}"] = lab(t)
+        files[f"footer-{mode}"] = footer(t)
         for i, (slug, title, kanji, sub) in enumerate(HEADERS):
             files[f"h-{slug}-{mode}"] = header(t, title, kanji, sub, i + 2)
         for i, name in enumerate(PILLS):
