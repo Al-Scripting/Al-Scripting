@@ -198,8 +198,8 @@ from make_glass import JP, MONO, THEMES, card  # same glass panel as the README 
 # Four columns that must not collide: label | signal | bar | score.
 WIDTH, HEIGHT = 900, 312
 LABEL_X, SIGNAL_X = 40, 154
-BAR_X, BAR_W, BAR_H = 364, 330, 12
-SPARK_X, SPARK_W, SPARK_H = 726, 136, 46
+BAR_X, BAR_W, BAR_H = 364, 300, 12
+SPARK_X, SPARK_W, SPARK_H = 742, 120, 46
 ROW_Y, ROW_GAP = 116, 40
 
 
