@@ -62,14 +62,14 @@
     <animate attributeName="opacity" from="0" to="1" dur="0.45s"
              begin="0.02s" fill="freeze"/>
     <text x="40" y="126" class="label">BREADTH</text>
-    <text x="154" y="126" class="signal">9 languages · 11 repos touched</text>
+    <text x="154" y="126" class="signal">8 languages · 11 repos touched</text>
     <rect x="364" y="116" width="300" height="12" rx="6" class="track"/>
-    <rect x="364" y="116" width="173.8" height="12" rx="6" class="fill">
-      <animate attributeName="width" from="0" to="173.8"
+    <rect x="364" y="116" width="162.0" height="12" rx="6" class="fill">
+      <animate attributeName="width" from="0" to="162.0"
                dur="1.05s" begin="0.30s" fill="freeze"
                calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
     </rect>
-    <text x="678" y="126" class="score">0.58</text>
+    <text x="678" y="126" class="score">0.54</text>
   </g>
   <g>
     <animate attributeName="opacity" from="0" to="1" dur="0.45s"
@@ -88,7 +88,7 @@
     <animate attributeName="opacity" from="0" to="1" dur="0.45s"
              begin="0.30s" fill="freeze"/>
     <text x="40" y="206" class="label">CONSISTENCY</text>
-    <text x="154" y="206" class="signal">7-day streak · 1662 contributions</text>
+    <text x="154" y="206" class="signal">7-day streak · 1668 contributions</text>
     <rect x="364" y="196" width="300" height="12" rx="6" class="track"/>
     <rect x="364" y="196" width="298.7" height="12" rx="6" class="fill">
       <animate attributeName="width" from="0" to="298.7"
@@ -114,22 +114,22 @@
   <g>
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.55s" fill="freeze"/>
     <text x="742" y="190" class="glabel">52-week contributions</text>
-    <path d="M742.0,247.2 L744.3,248.0 L746.6,247.7 L748.9,232.1 L751.2,248.0 L753.5,248.0 L755.8,248.0 L758.2,248.0 L760.5,245.6 L762.8,240.7 L765.1,239.1 L767.4,237.0 L769.7,245.9 L772.0,242.5 L774.3,243.3 L776.6,241.5 L778.9,241.2 L781.2,241.2 L783.5,245.4 L785.8,247.2 L788.2,246.4 L790.5,248.0 L792.8,248.0 L795.1,248.0 L797.4,247.2 L799.7,248.0 L802.0,247.5 L804.3,247.5 L806.6,246.2 L808.9,247.0 L811.2,247.0 L813.5,245.1 L815.8,245.1 L818.2,247.0 L820.5,244.9 L822.8,231.3 L825.1,238.9 L827.4,233.1 L829.7,240.7 L832.0,218.7 L834.3,238.3 L836.6,237.0 L838.9,227.9 L841.2,243.0 L843.5,227.1 L845.8,217.4 L848.2,202.0 L850.5,223.4 L852.8,235.2 L855.1,216.1 L857.4,227.6 L859.7,234.1 L862.0,237.3 L862.0,248.0 L742.0,248.0 Z" class="spark-area"/>
-    <path d="M742.0,247.2 L744.3,248.0 L746.6,247.7 L748.9,232.1 L751.2,248.0 L753.5,248.0 L755.8,248.0 L758.2,248.0 L760.5,245.6 L762.8,240.7 L765.1,239.1 L767.4,237.0 L769.7,245.9 L772.0,242.5 L774.3,243.3 L776.6,241.5 L778.9,241.2 L781.2,241.2 L783.5,245.4 L785.8,247.2 L788.2,246.4 L790.5,248.0 L792.8,248.0 L795.1,248.0 L797.4,247.2 L799.7,248.0 L802.0,247.5 L804.3,247.5 L806.6,246.2 L808.9,247.0 L811.2,247.0 L813.5,245.1 L815.8,245.1 L818.2,247.0 L820.5,244.9 L822.8,231.3 L825.1,238.9 L827.4,233.1 L829.7,240.7 L832.0,218.7 L834.3,238.3 L836.6,237.0 L838.9,227.9 L841.2,243.0 L843.5,227.1 L845.8,217.4 L848.2,202.0 L850.5,223.4 L852.8,235.2 L855.1,216.1 L857.4,227.6 L859.7,234.1 L862.0,237.3" class="spark-line" stroke-dasharray="192" stroke-dashoffset="192">
+    <path d="M742.0,247.2 L744.3,248.0 L746.6,247.7 L748.9,232.1 L751.2,248.0 L753.5,248.0 L755.8,248.0 L758.2,248.0 L760.5,245.6 L762.8,240.7 L765.1,239.1 L767.4,237.0 L769.7,245.9 L772.0,242.5 L774.3,243.3 L776.6,241.5 L778.9,241.2 L781.2,241.2 L783.5,245.4 L785.8,247.2 L788.2,246.4 L790.5,248.0 L792.8,248.0 L795.1,248.0 L797.4,247.2 L799.7,248.0 L802.0,247.5 L804.3,247.5 L806.6,246.2 L808.9,247.0 L811.2,247.0 L813.5,245.1 L815.8,245.1 L818.2,247.0 L820.5,244.9 L822.8,231.3 L825.1,238.9 L827.4,233.1 L829.7,240.7 L832.0,218.7 L834.3,238.3 L836.6,237.0 L838.9,227.9 L841.2,243.0 L843.5,227.1 L845.8,217.4 L848.2,202.0 L850.5,223.4 L852.8,235.2 L855.1,216.1 L857.4,227.6 L859.7,234.1 L862.0,235.7 L862.0,248.0 L742.0,248.0 Z" class="spark-area"/>
+    <path d="M742.0,247.2 L744.3,248.0 L746.6,247.7 L748.9,232.1 L751.2,248.0 L753.5,248.0 L755.8,248.0 L758.2,248.0 L760.5,245.6 L762.8,240.7 L765.1,239.1 L767.4,237.0 L769.7,245.9 L772.0,242.5 L774.3,243.3 L776.6,241.5 L778.9,241.2 L781.2,241.2 L783.5,245.4 L785.8,247.2 L788.2,246.4 L790.5,248.0 L792.8,248.0 L795.1,248.0 L797.4,247.2 L799.7,248.0 L802.0,247.5 L804.3,247.5 L806.6,246.2 L808.9,247.0 L811.2,247.0 L813.5,245.1 L815.8,245.1 L818.2,247.0 L820.5,244.9 L822.8,231.3 L825.1,238.9 L827.4,233.1 L829.7,240.7 L832.0,218.7 L834.3,238.3 L836.6,237.0 L838.9,227.9 L841.2,243.0 L843.5,227.1 L845.8,217.4 L848.2,202.0 L850.5,223.4 L852.8,235.2 L855.1,216.1 L857.4,227.6 L859.7,234.1 L862.0,235.7" class="spark-line" stroke-dasharray="192" stroke-dashoffset="192">
       <animate attributeName="stroke-dashoffset" from="192" to="0"
                dur="1.6s" begin="0.6s" fill="freeze"
                calcMode="spline" keySplines="0.3 0.9 0.3 1" keyTimes="0;1"/>
     </path>
-    <circle cx="862.0" cy="237.3" r="3" class="spark-dot">
+    <circle cx="862.0" cy="235.7" r="3" class="spark-dot">
       <animate attributeName="opacity" values="1;0.25;1" dur="2.2s" repeatCount="indefinite"/>
     </circle>
   </g>
 
   <line x1="40" y1="268" x2="860" y2="268" stroke="#fff" stroke-opacity="0.18" stroke-width="1"/>
-  <text x="40" y="286" class="foot"><tspan class="accent">1662</tspan> contributions
+  <text x="40" y="286" class="foot"><tspan class="accent">1668</tspan> contributions
     &#183; <tspan class="accent">7d</tspan> streak
-    &#183; 331 repos &#183; 9 languages
-    &#183; 8 stars</text>
-  <text x="860" y="286" class="foot" text-anchor="end">2026-11-18 15:54 UTC</text>
+    &#183; 350 repos &#183; 8 languages
+    &#183; 7 stars</text>
+  <text x="860" y="286" class="foot" text-anchor="end">2026-11-19 15:58 UTC</text>
 
 </svg>
