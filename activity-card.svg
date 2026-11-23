@@ -62,23 +62,23 @@
     <animate attributeName="opacity" from="0" to="1" dur="0.45s"
              begin="0.02s" fill="freeze"/>
     <text x="40" y="126" class="label">BREADTH</text>
-    <text x="154" y="126" class="signal">10 languages · 11 repos touched</text>
+    <text x="154" y="126" class="signal">9 languages · 11 repos touched</text>
     <rect x="364" y="116" width="300" height="12" rx="6" class="track"/>
-    <rect x="364" y="116" width="185.3" height="12" rx="6" class="fill">
-      <animate attributeName="width" from="0" to="185.3"
+    <rect x="364" y="116" width="173.8" height="12" rx="6" class="fill">
+      <animate attributeName="width" from="0" to="173.8"
                dur="1.05s" begin="0.30s" fill="freeze"
                calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
     </rect>
-    <text x="678" y="126" class="score">0.62</text>
+    <text x="678" y="126" class="score">0.58</text>
   </g>
   <g>
     <animate attributeName="opacity" from="0" to="1" dur="0.45s"
              begin="0.16s" fill="freeze"/>
     <text x="40" y="166" class="label">COMMITS</text>
-    <text x="154" y="166" class="signal">649 commits this year</text>
+    <text x="154" y="166" class="signal">647 commits this year</text>
     <rect x="364" y="156" width="300" height="12" rx="6" class="track"/>
-    <rect x="364" y="156" width="239.4" height="12" rx="6" class="fill">
-      <animate attributeName="width" from="0" to="239.4"
+    <rect x="364" y="156" width="238.8" height="12" rx="6" class="fill">
+      <animate attributeName="width" from="0" to="238.8"
                dur="1.05s" begin="0.44s" fill="freeze"
                calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
     </rect>
@@ -88,7 +88,7 @@
     <animate attributeName="opacity" from="0" to="1" dur="0.45s"
              begin="0.30s" fill="freeze"/>
     <text x="40" y="206" class="label">CONSISTENCY</text>
-    <text x="154" y="206" class="signal">11-day streak · 2683 contributions</text>
+    <text x="154" y="206" class="signal">11-day streak · 2680 contributions</text>
     <rect x="364" y="196" width="300" height="12" rx="6" class="track"/>
     <rect x="364" y="196" width="300.0" height="12" rx="6" class="fill">
       <animate attributeName="width" from="0" to="300.0"
@@ -126,10 +126,10 @@
   </g>
 
   <line x1="40" y1="268" x2="860" y2="268" stroke="#fff" stroke-opacity="0.51" stroke-width="1"/>
-  <text x="40" y="286" class="foot"><tspan class="accent">2683</tspan> contributions
+  <text x="40" y="286" class="foot"><tspan class="accent">2680</tspan> contributions
     &#183; <tspan class="accent">11d</tspan> streak
-    &#183; 353 repos &#183; 10 languages
+    &#183; 376 repos &#183; 9 languages
     &#183; 8 stars</text>
-  <text x="860" y="286" class="foot" text-anchor="end">2026-11-22 14:48 UTC</text>
+  <text x="860" y="286" class="foot" text-anchor="end">2026-11-23 18:39 UTC</text>
 
 </svg>
